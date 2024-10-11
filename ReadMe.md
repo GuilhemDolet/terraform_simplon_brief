@@ -61,8 +61,8 @@ terraform apply
 ## 3. Verify deployment
 Once the terraform apply command has run successfully, you can verify that the resources have been deployed either:
 
-    Through the Azure Portal: Navigate to the Azure Portal and check for the newly created resources under the specified resource group.
-    Using the Azure CLI: Run the following command to list resources in the resource group:
+- Through the Azure Portal: Navigate to the Azure Portal and check for the newly created resources under the specified resource group.
+- Using the Azure CLI: Run the following command to list resources in the resource group:
 
 ```bash
 az resource list --resource-group <your_resource_group_name>
@@ -72,9 +72,9 @@ az resource list --resource-group <your_resource_group_name>
 ## 4. Conclusion
 This project follows best practices by:
 
-    Using modularized Terraform code for resource provisioning.
-    Storing environment-specific data in a .tfvars file.
-    Ensuring the infrastructure can be deployed and destroyed easily via terraform apply and terraform destroy.
+- Using modularized Terraform code for resource provisioning.
+- Storing environment-specific data in a .tfvars file.
+- Ensuring the infrastructure can be deployed and destroyed easily via terraform apply and terraform destroy.
 
 
 ## Exemple of a .tfvars file :
